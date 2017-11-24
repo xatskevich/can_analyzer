@@ -1,8 +1,8 @@
 Dependencies for Project 'can_analyzer', Target 'Target 1': (DO NOT MODIFY !)
-F (.\files\CAN.c)(0x59F03C2B)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\can.o --omf_browse .\objects\can.crf --depend .\objects\can.d)
+F (.\files\CAN.c)(0x5A1810A6)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\can.o --omf_browse .\objects\can.crf --depend .\objects\can.d)
 I (files\CAN.h)(0x59B8E50C)
-I (files\main.h)(0x5A17EA7B)
-I (files\stm32f0xx.h)(0x59B8DF62)
+I (files\main.h)(0x5A181093)
+I (files\stm32f0xx.h)(0x5A18124C)
 I (files\core_cm0.h)(0x547D7A64)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
 I (.\CMSIS\core_cmInstr.h)(0x547D7A64)
@@ -10,7 +10,7 @@ I (.\CMSIS\core_cmFunc.h)(0x547D7A64)
 I (files\system_stm32f0xx.h)(0x548070F0)
 I (.\SPL_conf\stm32f0xx_conf.h)(0x52D7F9A2)
 I (.\inc\stm32f0xx_adc.h)(0x548070F2)
-I (.\files\stm32f0xx.h)(0x59B8DF62)
+I (.\files\stm32f0xx.h)(0x5A18124C)
 I (.\inc\stm32f0xx_can.h)(0x548070F2)
 I (.\inc\stm32f0xx_cec.h)(0x548070F2)
 I (.\inc\stm32f0xx_crc.h)(0x548070F2)
@@ -37,9 +37,9 @@ I (files\GPIO.h)(0x59B8DBA8)
 I (files\rcc.h)(0x59B8E104)
 I (files\timer.h)(0x59B8E104)
 I (files\UART.h)(0x5A17EA41)
-F (.\files\GPIO.c)(0x59EEF267)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
-I (files\main.h)(0x5A17EA7B)
-I (files\stm32f0xx.h)(0x59B8DF62)
+F (.\files\GPIO.c)(0x5A180ECB)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (files\main.h)(0x5A181093)
+I (files\stm32f0xx.h)(0x5A18124C)
 I (files\core_cm0.h)(0x547D7A64)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
 I (.\CMSIS\core_cmInstr.h)(0x547D7A64)
@@ -47,45 +47,7 @@ I (.\CMSIS\core_cmFunc.h)(0x547D7A64)
 I (files\system_stm32f0xx.h)(0x548070F0)
 I (.\SPL_conf\stm32f0xx_conf.h)(0x52D7F9A2)
 I (.\inc\stm32f0xx_adc.h)(0x548070F2)
-I (.\files\stm32f0xx.h)(0x59B8DF62)
-I (.\inc\stm32f0xx_can.h)(0x548070F2)
-I (.\inc\stm32f0xx_cec.h)(0x548070F2)
-I (.\inc\stm32f0xx_crc.h)(0x548070F2)
-I (.\inc\stm32f0xx_crs.h)(0x548070F2)
-I (.\inc\stm32f0xx_comp.h)(0x548070F2)
-I (.\inc\stm32f0xx_dac.h)(0x548070F2)
-I (.\inc\stm32f0xx_dbgmcu.h)(0x548070F2)
-I (.\inc\stm32f0xx_dma.h)(0x548070F2)
-I (.\inc\stm32f0xx_exti.h)(0x548070F2)
-I (.\inc\stm32f0xx_flash.h)(0x548070F2)
-I (.\inc\stm32f0xx_gpio.h)(0x548070F2)
-I (.\inc\stm32f0xx_syscfg.h)(0x548070F2)
-I (.\inc\stm32f0xx_i2c.h)(0x548070F2)
-I (.\inc\stm32f0xx_iwdg.h)(0x548070F2)
-I (.\inc\stm32f0xx_pwr.h)(0x548070F2)
-I (.\inc\stm32f0xx_rcc.h)(0x548070F2)
-I (.\inc\stm32f0xx_rtc.h)(0x548070F2)
-I (.\inc\stm32f0xx_spi.h)(0x548070F2)
-I (.\inc\stm32f0xx_tim.h)(0x548070F2)
-I (.\inc\stm32f0xx_usart.h)(0x548070F2)
-I (.\inc\stm32f0xx_wwdg.h)(0x548070F2)
-I (.\inc\stm32f0xx_misc.h)(0x548070F2)
-I (files\CAN.h)(0x59B8E50C)
-I (files\GPIO.h)(0x59B8DBA8)
-I (files\rcc.h)(0x59B8E104)
-I (files\timer.h)(0x59B8E104)
-I (files\UART.h)(0x5A17EA41)
-F (.\files\main.c)(0x5A17EA69)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (files\main.h)(0x5A17EA7B)
-I (files\stm32f0xx.h)(0x59B8DF62)
-I (files\core_cm0.h)(0x547D7A64)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
-I (.\CMSIS\core_cmInstr.h)(0x547D7A64)
-I (.\CMSIS\core_cmFunc.h)(0x547D7A64)
-I (files\system_stm32f0xx.h)(0x548070F0)
-I (.\SPL_conf\stm32f0xx_conf.h)(0x52D7F9A2)
-I (.\inc\stm32f0xx_adc.h)(0x548070F2)
-I (.\files\stm32f0xx.h)(0x59B8DF62)
+I (.\files\stm32f0xx.h)(0x5A18124C)
 I (.\inc\stm32f0xx_can.h)(0x548070F2)
 I (.\inc\stm32f0xx_cec.h)(0x548070F2)
 I (.\inc\stm32f0xx_crc.h)(0x548070F2)
@@ -113,10 +75,9 @@ I (files\GPIO.h)(0x59B8DBA8)
 I (files\rcc.h)(0x59B8E104)
 I (files\timer.h)(0x59B8E104)
 I (files\UART.h)(0x5A17EA41)
-F (.\files\rcc.c)(0x59B903EE)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\rcc.o --omf_browse .\objects\rcc.crf --depend .\objects\rcc.d)
-I (files\rcc.h)(0x59B8E104)
-I (files\main.h)(0x5A17EA7B)
-I (files\stm32f0xx.h)(0x59B8DF62)
+F (.\files\main.c)(0x5A1810E5)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (files\main.h)(0x5A181093)
+I (files\stm32f0xx.h)(0x5A18124C)
 I (files\core_cm0.h)(0x547D7A64)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
 I (.\CMSIS\core_cmInstr.h)(0x547D7A64)
@@ -124,7 +85,46 @@ I (.\CMSIS\core_cmFunc.h)(0x547D7A64)
 I (files\system_stm32f0xx.h)(0x548070F0)
 I (.\SPL_conf\stm32f0xx_conf.h)(0x52D7F9A2)
 I (.\inc\stm32f0xx_adc.h)(0x548070F2)
-I (.\files\stm32f0xx.h)(0x59B8DF62)
+I (.\files\stm32f0xx.h)(0x5A18124C)
+I (.\inc\stm32f0xx_can.h)(0x548070F2)
+I (.\inc\stm32f0xx_cec.h)(0x548070F2)
+I (.\inc\stm32f0xx_crc.h)(0x548070F2)
+I (.\inc\stm32f0xx_crs.h)(0x548070F2)
+I (.\inc\stm32f0xx_comp.h)(0x548070F2)
+I (.\inc\stm32f0xx_dac.h)(0x548070F2)
+I (.\inc\stm32f0xx_dbgmcu.h)(0x548070F2)
+I (.\inc\stm32f0xx_dma.h)(0x548070F2)
+I (.\inc\stm32f0xx_exti.h)(0x548070F2)
+I (.\inc\stm32f0xx_flash.h)(0x548070F2)
+I (.\inc\stm32f0xx_gpio.h)(0x548070F2)
+I (.\inc\stm32f0xx_syscfg.h)(0x548070F2)
+I (.\inc\stm32f0xx_i2c.h)(0x548070F2)
+I (.\inc\stm32f0xx_iwdg.h)(0x548070F2)
+I (.\inc\stm32f0xx_pwr.h)(0x548070F2)
+I (.\inc\stm32f0xx_rcc.h)(0x548070F2)
+I (.\inc\stm32f0xx_rtc.h)(0x548070F2)
+I (.\inc\stm32f0xx_spi.h)(0x548070F2)
+I (.\inc\stm32f0xx_tim.h)(0x548070F2)
+I (.\inc\stm32f0xx_usart.h)(0x548070F2)
+I (.\inc\stm32f0xx_wwdg.h)(0x548070F2)
+I (.\inc\stm32f0xx_misc.h)(0x548070F2)
+I (files\CAN.h)(0x59B8E50C)
+I (files\GPIO.h)(0x59B8DBA8)
+I (files\rcc.h)(0x59B8E104)
+I (files\timer.h)(0x59B8E104)
+I (files\UART.h)(0x5A17EA41)
+F (.\files\rcc.c)(0x5A180ECB)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\rcc.o --omf_browse .\objects\rcc.crf --depend .\objects\rcc.d)
+I (files\rcc.h)(0x59B8E104)
+I (files\main.h)(0x5A181093)
+I (files\stm32f0xx.h)(0x5A18124C)
+I (files\core_cm0.h)(0x547D7A64)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
+I (.\CMSIS\core_cmInstr.h)(0x547D7A64)
+I (.\CMSIS\core_cmFunc.h)(0x547D7A64)
+I (files\system_stm32f0xx.h)(0x548070F0)
+I (.\SPL_conf\stm32f0xx_conf.h)(0x52D7F9A2)
+I (.\inc\stm32f0xx_adc.h)(0x548070F2)
+I (.\files\stm32f0xx.h)(0x5A18124C)
 I (.\inc\stm32f0xx_can.h)(0x548070F2)
 I (.\inc\stm32f0xx_cec.h)(0x548070F2)
 I (.\inc\stm32f0xx_crc.h)(0x548070F2)
@@ -151,10 +151,10 @@ I (files\CAN.h)(0x59B8E50C)
 I (files\GPIO.h)(0x59B8DBA8)
 I (files\timer.h)(0x59B8E104)
 I (files\UART.h)(0x5A17EA41)
-F (.\files\timer.c)(0x59F3343A)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+F (.\files\timer.c)(0x5A180ECB)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
 I (files\timer.h)(0x59B8E104)
-I (files\main.h)(0x5A17EA7B)
-I (files\stm32f0xx.h)(0x59B8DF62)
+I (files\main.h)(0x5A181093)
+I (files\stm32f0xx.h)(0x5A18124C)
 I (files\core_cm0.h)(0x547D7A64)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
 I (.\CMSIS\core_cmInstr.h)(0x547D7A64)
@@ -162,7 +162,7 @@ I (.\CMSIS\core_cmFunc.h)(0x547D7A64)
 I (files\system_stm32f0xx.h)(0x548070F0)
 I (.\SPL_conf\stm32f0xx_conf.h)(0x52D7F9A2)
 I (.\inc\stm32f0xx_adc.h)(0x548070F2)
-I (.\files\stm32f0xx.h)(0x59B8DF62)
+I (.\files\stm32f0xx.h)(0x5A18124C)
 I (.\inc\stm32f0xx_can.h)(0x548070F2)
 I (.\inc\stm32f0xx_cec.h)(0x548070F2)
 I (.\inc\stm32f0xx_crc.h)(0x548070F2)
@@ -189,9 +189,9 @@ I (files\CAN.h)(0x59B8E50C)
 I (files\GPIO.h)(0x59B8DBA8)
 I (files\rcc.h)(0x59B8E104)
 I (files\UART.h)(0x5A17EA41)
-F (.\files\UART.c)(0x5A17EA35)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
-I (files\main.h)(0x5A17EA7B)
-I (files\stm32f0xx.h)(0x59B8DF62)
+F (.\files\UART.c)(0x5A181146)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (files\main.h)(0x5A181093)
+I (files\stm32f0xx.h)(0x5A18124C)
 I (files\core_cm0.h)(0x547D7A64)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
 I (.\CMSIS\core_cmInstr.h)(0x547D7A64)
@@ -199,7 +199,7 @@ I (.\CMSIS\core_cmFunc.h)(0x547D7A64)
 I (files\system_stm32f0xx.h)(0x548070F0)
 I (.\SPL_conf\stm32f0xx_conf.h)(0x52D7F9A2)
 I (.\inc\stm32f0xx_adc.h)(0x548070F2)
-I (.\files\stm32f0xx.h)(0x59B8DF62)
+I (.\files\stm32f0xx.h)(0x5A18124C)
 I (.\inc\stm32f0xx_can.h)(0x548070F2)
 I (.\inc\stm32f0xx_cec.h)(0x548070F2)
 I (.\inc\stm32f0xx_crc.h)(0x548070F2)
@@ -230,9 +230,9 @@ I (files\UART.h)(0x5A17EA41)
 F (.\files\CAN.h)(0x59B8E50C)()
 F (.\files\core_cm0.h)(0x547D7A64)()
 F (.\files\GPIO.h)(0x59B8DBA8)()
-F (.\files\main.h)(0x5A17EA7B)()
+F (.\files\main.h)(0x5A181093)()
 F (.\files\rcc.h)(0x59B8E104)()
-F (.\files\stm32f0xx.h)(0x59B8DF62)()
+F (.\files\stm32f0xx.h)(0x5A18124C)()
 F (.\files\stm32f042x6.h)(0x56EA3C8A)()
 F (.\files\timer.h)(0x59B8E104)()
 F (.\files\UART.h)(0x5A17EA41)()
@@ -244,7 +244,7 @@ F (.\inc\stm32f0xx_rcc.h)(0x548070F2)()
 F (.\inc\stm32f0xx_usart.h)(0x548070F2)()
 F (.\src\stm32f0xx_can.c)(0x59D49BB6)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f0xx_can.o --omf_browse .\objects\stm32f0xx_can.crf --depend .\objects\stm32f0xx_can.d)
 I (.\inc\stm32f0xx_can.h)(0x548070F2)
-I (.\files\stm32f0xx.h)(0x59B8DF62)
+I (.\files\stm32f0xx.h)(0x5A18124C)
 I (.\files\core_cm0.h)(0x547D7A64)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
 I (.\CMSIS\core_cmInstr.h)(0x547D7A64)
@@ -275,7 +275,7 @@ I (.\inc\stm32f0xx_wwdg.h)(0x548070F2)
 I (.\inc\stm32f0xx_misc.h)(0x548070F2)
 F (.\src\stm32f0xx_gpio.c)(0x548070F4)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f0xx_gpio.o --omf_browse .\objects\stm32f0xx_gpio.crf --depend .\objects\stm32f0xx_gpio.d)
 I (.\inc\stm32f0xx_gpio.h)(0x548070F2)
-I (.\files\stm32f0xx.h)(0x59B8DF62)
+I (.\files\stm32f0xx.h)(0x5A18124C)
 I (.\files\core_cm0.h)(0x547D7A64)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
 I (.\CMSIS\core_cmInstr.h)(0x547D7A64)
@@ -306,7 +306,7 @@ I (.\inc\stm32f0xx_wwdg.h)(0x548070F2)
 I (.\inc\stm32f0xx_misc.h)(0x548070F2)
 F (.\src\stm32f0xx_iwdg.c)(0x548070F4)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f0xx_iwdg.o --omf_browse .\objects\stm32f0xx_iwdg.crf --depend .\objects\stm32f0xx_iwdg.d)
 I (.\inc\stm32f0xx_iwdg.h)(0x548070F2)
-I (.\files\stm32f0xx.h)(0x59B8DF62)
+I (.\files\stm32f0xx.h)(0x5A18124C)
 I (.\files\core_cm0.h)(0x547D7A64)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
 I (.\CMSIS\core_cmInstr.h)(0x547D7A64)
@@ -337,7 +337,7 @@ I (.\inc\stm32f0xx_wwdg.h)(0x548070F2)
 I (.\inc\stm32f0xx_misc.h)(0x548070F2)
 F (.\src\stm32f0xx_misc.c)(0x548070F4)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f0xx_misc.o --omf_browse .\objects\stm32f0xx_misc.crf --depend .\objects\stm32f0xx_misc.d)
 I (.\inc\stm32f0xx_misc.h)(0x548070F2)
-I (.\files\stm32f0xx.h)(0x59B8DF62)
+I (.\files\stm32f0xx.h)(0x5A18124C)
 I (.\files\core_cm0.h)(0x547D7A64)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
 I (.\CMSIS\core_cmInstr.h)(0x547D7A64)
@@ -368,7 +368,7 @@ I (.\inc\stm32f0xx_usart.h)(0x548070F2)
 I (.\inc\stm32f0xx_wwdg.h)(0x548070F2)
 F (.\src\stm32f0xx_rcc.c)(0x548070F4)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f0xx_rcc.o --omf_browse .\objects\stm32f0xx_rcc.crf --depend .\objects\stm32f0xx_rcc.d)
 I (.\inc\stm32f0xx_rcc.h)(0x548070F2)
-I (.\files\stm32f0xx.h)(0x59B8DF62)
+I (.\files\stm32f0xx.h)(0x5A18124C)
 I (.\files\core_cm0.h)(0x547D7A64)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
 I (.\CMSIS\core_cmInstr.h)(0x547D7A64)
@@ -399,7 +399,7 @@ I (.\inc\stm32f0xx_wwdg.h)(0x548070F2)
 I (.\inc\stm32f0xx_misc.h)(0x548070F2)
 F (.\src\stm32f0xx_usart.c)(0x548070F4)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f0xx_usart.o --omf_browse .\objects\stm32f0xx_usart.crf --depend .\objects\stm32f0xx_usart.d)
 I (.\inc\stm32f0xx_usart.h)(0x548070F2)
-I (.\files\stm32f0xx.h)(0x59B8DF62)
+I (.\files\stm32f0xx.h)(0x5A18124C)
 I (.\files\core_cm0.h)(0x547D7A64)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
 I (.\CMSIS\core_cmInstr.h)(0x547D7A64)
@@ -429,8 +429,8 @@ I (.\inc\stm32f0xx_tim.h)(0x548070F2)
 I (.\inc\stm32f0xx_wwdg.h)(0x548070F2)
 I (.\inc\stm32f0xx_misc.h)(0x548070F2)
 F (RTE\Device\STM32F042K6\startup_stm32f042x6.s)(0x56EA3C8A)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32F042x6 SETA 1"--list .\listings\startup_stm32f042x6.lst --xref -o .\objects\startup_stm32f042x6.o --depend .\objects\startup_stm32f042x6.d)
-F (RTE\Device\STM32F042K6\system_stm32f0xx.c)(0x5A17E952)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f0xx_1.o --omf_browse .\objects\system_stm32f0xx_1.crf --depend .\objects\system_stm32f0xx_1.d)
-I (.\files\stm32f0xx.h)(0x59B8DF62)
+F (RTE\Device\STM32F042K6\system_stm32f0xx.c)(0x5A1811AC)(--c99 -c --cpu Cortex-M0 -D__EVAL -g -O1 --apcs=interwork --split_sections -I .\CMSIS -I .\files -I .\inc -I .\RTE -I .\SPL_conf -I .\src-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F042x6 -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f0xx_1.o --omf_browse .\objects\system_stm32f0xx_1.crf --depend .\objects\system_stm32f0xx_1.d)
+I (.\files\stm32f0xx.h)(0x5A18124C)
 I (.\files\core_cm0.h)(0x547D7A64)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BC994)
 I (.\CMSIS\core_cmInstr.h)(0x547D7A64)

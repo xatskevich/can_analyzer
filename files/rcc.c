@@ -14,7 +14,7 @@ void Init_IWDG(){
 void Init_RCC(){
 
 	RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA, ENABLE);
-	RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOB, ENABLE);
+	//RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOB, ENABLE);
 	//RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOC, ENABLE);
 	//RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOD, ENABLE);
 	//RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOE, ENABLE);
@@ -30,7 +30,7 @@ void Init_RCC(){
 	//RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM14, ENABLE);
 	//RCC_APB1PeriphClockCmd(RCC_APB1Periph_WWDG, ENABLE);
 	//RCC_APB1PeriphClockCmd(RCC_APB1Periph_SPI2, ENABLE);
-	//RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART2, ENABLE);
+	RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART2, ENABLE);
 	//RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART3, ENABLE);
 	//RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART4, ENABLE);
 	//RCC_APB1PeriphClockCmd(RCC_APB1Periph_I2C1, ENABLE);
@@ -47,6 +47,6 @@ void Init_RCC(){
 	//RCC_APB2PeriphClockCmd(RCC_APB2Periph_SPI1, ENABLE);
 	//RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE);
 	//RCC_APB2PeriphClockCmd(RCC_APB2Periph_TIM15, ENABLE);
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_TIM16, ENABLE);
+	//RCC_APB2PeriphClockCmd(RCC_APB2Periph_TIM16, ENABLE);
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_TIM17, ENABLE);
 }
